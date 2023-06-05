@@ -1,0 +1,22 @@
+{
+    "colour_schemes": [
+        {"name": "logo", "human_name": "Logo"},
+        {"name": "login", "human_name": "Login form"}
+    ],
+    "label_class_groups": [
+        {"group_name": "Logo", "group_classes": [
+            {"name": "icon", "human_name": "Icon", "colours": {"default": [0, 255, 192],
+                                                               "logo":[0, 255, 192],
+                                                               "login":[128, 128, 128]}},
+            {"name": "icon_text", "human_name": "Icon with Text", "colours": {"default":[0, 128, 255],
+                                                                         "logo": [0, 128, 255],
+                                                                         "login": [128, 128, 128]}}
+
+        ]},
+        {"group_name": "Login form", "group_classes": [
+            {"name": "login_form", "human_name": "Form", "colours": {"default":[255, 96, 192],
+                                                         "logo": [255, 192, 96],
+                                                         "login":[128, 128, 128]}}
+        ]}
+    ]
+}
