@@ -29,5 +29,5 @@ class Command(BaseCommand):
                 width, height = im.size
                 if height > 800:
                     im = im.crop((0, 0, width, 800),)
-                im.save(os.path.join(path, filename))
+                im.save(os.path.join(path, filename), quality=100)
                 im.close()
